@@ -129,5 +129,25 @@
 
   body {
     @apply bg-background text-foreground;
+    background-image: 
+      url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23145A32' fill-opacity='0.03'%3E%3Cpath d='M30 15c0-8.284-6.716-15-15-15S0 6.716 0 15s6.716 15 15 15c2.485 0 4.83-.606 6.895-1.678C24.265 26.694 26.694 24.265 28.322 21.895 29.394 19.83 30 17.485 30 15zm-15 9c-4.97 0-9-4.03-9-9s4.03-9 9-9 9 4.03 9 9-4.03 9-9 9z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+      url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23228B22' fill-opacity='0.02'%3E%3Cpath d='M20 20c0-5.5-4.5-10-10-10s-10 4.5-10 10 4.5 10 10 10c1.657 0 3.22-.403 4.596-1.119C17.298 27.796 18.796 26.298 19.881 24.596 20.597 23.22 21 21.657 21 20z'/%3E%3Cpath d='M30 10c-2.761 0-5 2.239-5 5s2.239 5 5 5 5-2.239 5-5-2.239-5-5-5zm0 8c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z'/%3E%3C/g%3E%3C/svg%3E");
+    background-position: 0 0, 30px 30px;
+    background-size: 120px 120px, 80px 80px;
+  }
+
+  /* Subtle leaf accent for hero sections */
+  .leaf-accent::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50 10c-15 0-30 10-30 25 0 20 15 35 30 35s30-15 30-35c0-15-15-25-30-25z' fill='%23145A32' fill-opacity='0.04'/%3E%3Cpath d='M50 20c-8 0-15 5-15 15 0 12 7 20 15 20s15-8 15-20c0-10-7-15-15-15z' fill='%23228B22' fill-opacity='0.02'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    pointer-events: none;
+    z-index: 0;
   }
 }

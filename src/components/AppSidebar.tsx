@@ -41,9 +41,9 @@ export function AppSidebar() {
   const location = useLocation();
   const collapsed = state === "collapsed";
 
-  const isActive = (path) => location.pathname === path;
+  const isActive = (path: string) => location.pathname === path;
 
-  const getNavClass = (path) => {
+  const getNavClass = (path: string) => {
     const base = "w-full justify-start transition-colors duration-200";
     return isActive(path) 
       ? `${base} bg-primary text-primary-foreground shadow-md` 

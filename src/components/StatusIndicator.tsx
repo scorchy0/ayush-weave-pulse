@@ -1,11 +1,18 @@
 import { cn } from "@/lib/utils";
 
+interface StatusIndicatorProps {
+  status: "online" | "warning" | "offline" | "pending";
+  label?: string;
+  size?: "sm" | "md" | "lg";
+  showLabel?: boolean;
+}
+
 export function StatusIndicator({ 
   status, 
   label, 
   size = "md", 
   showLabel = true 
-}) {
+}: StatusIndicatorProps) {
   const getStatusStyles = () => {
     switch (status) {
       case "online":

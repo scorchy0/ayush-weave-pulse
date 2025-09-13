@@ -22,7 +22,7 @@ export default function Dashboard() {
       subtitle: "Network nodes online",
       icon: Network,
       trend: { value: 12.5, isPositive: true },
-      variant: "success"
+      variant: "success" as const
     },
     {
       title: "Compliance Score",
@@ -30,7 +30,7 @@ export default function Dashboard() {
       subtitle: "AYUSH standards met",
       icon: Shield,
       trend: { value: 2.1, isPositive: true },
-      variant: "accent"
+      variant: "accent" as const
     },
     {
       title: "Records Processed",
@@ -49,11 +49,11 @@ export default function Dashboard() {
   ];
 
   const networkNodes = [
-    { name: "Primary Manufacturing", status: "online", location: "Mumbai, Maharashtra" },
-    { name: "Secondary Processing", status: "online", location: "Bangalore, Karnataka" },
-    { name: "Quality Control Hub", status: "warning", location: "Delhi, NCR" },
-    { name: "Distribution Center", status: "online", location: "Chennai, Tamil Nadu" },
-    { name: "Export Terminal", status: "pending", location: "Kochi, Kerala" }
+    { name: "Primary Manufacturing", status: "online" as const, location: "Mumbai, Maharashtra" },
+    { name: "Secondary Processing", status: "online" as const, location: "Bangalore, Karnataka" },
+    { name: "Quality Control Hub", status: "warning" as const, location: "Delhi, NCR" },
+    { name: "Distribution Center", status: "online" as const, location: "Chennai, Tamil Nadu" },
+    { name: "Export Terminal", status: "pending" as const, location: "Kochi, Kerala" }
   ];
 
   const recentActivities = [

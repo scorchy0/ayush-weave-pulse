@@ -1,5 +1,19 @@
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
+import { LucideIcon } from "lucide-react";
+
+interface MetricCardProps {
+  title: string;
+  value: string;
+  subtitle?: string;
+  icon: LucideIcon;
+  trend?: {
+    value: number;
+    isPositive: boolean;
+  };
+  variant?: "default" | "success" | "warning" | "accent";
+  className?: string;
+}
 
 export function MetricCard({ 
   title, 
@@ -9,7 +23,7 @@ export function MetricCard({
   trend, 
   variant = "default",
   className 
-}) {
+}: MetricCardProps) {
   const getVariantStyles = () => {
     switch (variant) {
       case "success":

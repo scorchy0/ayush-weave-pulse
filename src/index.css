@@ -130,10 +130,11 @@
   body {
     @apply bg-background text-foreground;
     background-image: 
-      url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23145A32' fill-opacity='0.03'%3E%3Cpath d='M30 15c0-8.284-6.716-15-15-15S0 6.716 0 15s6.716 15 15 15c2.485 0 4.83-.606 6.895-1.678C24.265 26.694 26.694 24.265 28.322 21.895 29.394 19.83 30 17.485 30 15zm-15 9c-4.97 0-9-4.03-9-9s4.03-9 9-9 9 4.03 9 9-4.03 9-9 9z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
-      url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23228B22' fill-opacity='0.02'%3E%3Cpath d='M20 20c0-5.5-4.5-10-10-10s-10 4.5-10 10 4.5 10 10 10c1.657 0 3.22-.403 4.596-1.119C17.298 27.796 18.796 26.298 19.881 24.596 20.597 23.22 21 21.657 21 20z'/%3E%3Cpath d='M30 10c-2.761 0-5 2.239-5 5s2.239 5 5 5 5-2.239 5-5-2.239-5-5-5zm0 8c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z'/%3E%3C/g%3E%3C/svg%3E");
-    background-position: 0 0, 30px 30px;
-    background-size: 120px 120px, 80px 80px;
+      url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23145A32' fill-opacity='0.06'%3E%3Cpath d='M40 20c0-11.046-8.954-20-20-20S0 8.954 0 20s8.954 20 20 20c3.314 0 6.44-.808 9.194-2.237C32.353 35.592 35.592 32.353 37.763 29.194 39.192 26.44 40 23.314 40 20zm-20 12c-6.627 0-12-5.373-12-12s5.373-12 12-12 12 5.373 12 12-5.373 12-12 12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+      url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23228B22' fill-opacity='0.04'%3E%3Cpath d='M30 30c0-8.284-6.716-15-15-15s-15 6.716-15 15 6.716 15 15 15c2.485 0 4.83-.606 6.895-1.678C24.265 41.694 26.694 39.265 28.322 36.895 29.394 34.83 30 32.485 30 30z'/%3E%3Cpath d='M45 15c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5 7.5-3.358 7.5-7.5-3.358-7.5-7.5-7.5zm0 12c-2.485 0-4.5-2.015-4.5-4.5s2.015-4.5 4.5-4.5 4.5 2.015 4.5 4.5-2.015 4.5-4.5 4.5z'/%3E%3C/g%3E%3C/svg%3E"),
+      url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23145A32' fill-opacity='0.03'%3E%3Cpath d='M20 5c-8 0-15 7-15 15 0 12 7 20 15 20s15-8 15-20c0-8-7-15-15-15zm0 28c-7 0-12-6-12-13s5-12 12-12 12 5 12 12-5 13-12 13z'/%3E%3C/g%3E%3C/svg%3E");
+    background-position: 0 0, 40px 40px, 80px 20px;
+    background-size: 160px 160px, 120px 120px, 80px 80px;
   }
 
   /* Subtle leaf accent for hero sections */
